@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <title>Blood Bank</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styleDonor.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="home">
+            <nav  id="main-nav" class="navbar navbar-expand-lg navbar-light  fixed-top">
+                <div class="container ">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="Blood Bank">
+                        <span>Blood Bank</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.htm">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#team">Services<span class="sr-only">(current)</span></a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link" href="#clients">Contact</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.facebook.com/">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://twitter.com/">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.instagram.com/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        
+
+        <div class="header ">
+            <a href="donor.html">Donors /</a>
+            <a href="donorform.html">Need Blood</a>
+        </div>
+        
+      <div class="parent">
+        <div class="blood-img">
+            <img src="images/NINTCHDBPICT000418537876-e1545656222162.jpg">
+        </div>
+        <div class="blood-form">
+            <div class="blood-form-heading">GIVE BLOOD SAVE LIFE <br>
+                <span>DONOR BASIC INFO</span>
+            </div>
+            <div class="items">
+            <label for="name">Donor Name</label>
+            <input id="donor_name" type="text" class="form-control bg-transparent" name="name" >
+            <p id="donornameAlert" class="d-none text-danger">include at least 3 letters, second name is optional</p>
+
+            <label for="age">Age</label>
+            <input id="donor_age" type="text" class="form-control bg-transparent " name="age">
+            <p id="donorAgeAlert" class="d-none text-danger">Age should be from 18 to 60</p>
+
+            <label for="gender">Gender</label>
+            <input id="donor_gender" type="text"  name="gender" class="form-control bg-transparent "> 
+            <p id="donorGenderAlert" class="d-none text-danger">enter male or female</p>
+
+            <label for="email">Email</label>
+            <input id="donor_email" type="text"  class="form-control bg-transparent " name="email">
+            <p id="donorEmailAlert" class="d-none text-danger">name@example.com</p>
+
+            <label for="number">Telephone</label>
+            <input id="donor_num" type="text" name="number"  class="form-control bg-transparent "  >
+            <p id="donorNumAlert" class="d-none text-danger">you must enter number start with (010|012|015|011) and must be 11 number </p>
+            <label for="blood">Blood Group</label>
+            <select id="donor_blood" name="blood" class="form-control bg-transparent ">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="O">O</option>
+            </select>
+            <label for="message">Message</label>
+            <textarea id="donor_mess" name="message" class="form-control bg-transparent " ></textarea>
+            <p class="text-success d-none" id="confirmMsg">your information send successfully</p>
+            <p class="text-danger d-none mb-0" id="tryAgainMsg">you enter something wrong , try again!</p>
+            <button onclick="send()"  class="btn btn-outline-info w-100 mt-2">send</button>
+            </div>
+
+       </div>
+      </div>
+     
+      <section id="footer" class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center" >
+                    <a class="uparrow" href="#home">
+                        <i class="fas fa-chevron-up"></i>
+                    </a>
+
+
+                </div>
+            </div>
+
+
+
+            <div class="row py-5">
+                <div class="col-md-3">
+                    <div class="section-one">
+                        <h4>Contact Us</h4>
+                        <div class="icons">
+                            <i class="fas fa-phone-alt pr-2 py-2"></i> <span>01096745301</span> <br>
+                            <i class="fas fa-envelope pr-2 "></i><span>bloodbank11@gmail.com</span> <br>
+                            <div class="py-2">
+                                <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                                <a href="#"><i class="fab fa-instagram fa-fw"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="section-two">
+                        <h4 class="pb-3">Save the lives of others, donate a drop of blood</h4>
+                        <input type="text" class="form-control w-75" placeholder=". . . .">
+                        <button class="btn mt-3">Subscribe</button>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="section-three">
+                        <p> <a href="#">About Us</a></p>
+                        <p><a href="#">Donor Register</a></p>
+                        <p><a href="#">Need Blood</a></p>
+                        <p><a href="#">Information Contact</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="endfooter text-center py-3">
+            <p>Copyright &copy; All rights Reserved</p>
+            <span>Designed by BloodBank.com</span>
+        </div>
+
+    </section>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/Donor.js"></script>
+    </body>
+</html>
