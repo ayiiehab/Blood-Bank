@@ -16,10 +16,11 @@ function subscribe(){
             localStorage.setItem("subscribeList", JSON.stringify(homeStorage));
         }
 }
+
 $(window).scroll(function(){
     let wScroll =$(window).scrollTop();
 
-    if(wScroll >300){
+    if(wScroll > 500){
         $("#main-nav").css("backgroundColor", "rgba(0,0,0,0.5")
     }
     else{
