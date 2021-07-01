@@ -1,0 +1,341 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color      : #666;
+    overflow-x : hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #C5341F;
+}
+#main-nav{
+    transition: background-color 2s , padding 0.5s;
+}
+
+.navbar-brand img {
+    width: 10%;
+}
+
+.navbar-brand span,
+.navbar-light .navbar-nav .nav-link {
+    color      : #fff;
+    font-weight: 600;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(168, 164, 164);
+}
+
+/* -------------------Nav ----------- */
+
+#home .layer .frist-slide {
+    background-image     : url(../images/4438756.jpg);
+    background-position  : center center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+#home .layer .secand-slide {
+    background-image: url(../images/blood_donation_-_photo_chernetskaya_dreamstime.com_.jpg);
+    background-position  : center center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+#home .layer .thrid-slide {
+    background-image: url(../images/World_Blood_Donor_Day_1000_x_400.jpg);
+    background-position  : center center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+
+
+#home .setting {
+    top                       : 20%;
+    background-color          : #1f2528;
+    padding                   : 8px 8px;
+    border-top-right-radius   : 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+#home .setting:hover {
+    background-color: #444;
+    ;
+}
+
+#home .setting i {
+    font-size: 20px;
+    color    : #fff;
+}
+
+
+
+#home .icon i {
+    color     : #fff;
+    font-size : 20px;
+    margin-top: 16%;
+
+}
+
+#home .icon:hover .log {
+    width  : 100%;
+    z-index: 1;
+
+}
+
+#home .icon:hover i {
+    color  : chocolate;
+    z-index: 3;
+}
+
+#home .icon .log {
+    content         : "";
+    width           : 0%;
+    height          : 100%;
+    background-color: #fff;
+    position        : absolute;
+    opacity         : 1;
+    left            : 0%;
+    top             : 0%;
+    color           : sandybrown;
+    transition      : all 0.5s;
+
+
+}
+
+/*-------------------------ABout-----------*/
+.title h3 {
+    font-size  : 80px;
+    font-weight: 800;
+    color      : rgba(231, 231, 231, 0.486);
+}
+
+
+.title hr {
+    content         : "";
+    width           : 4%;
+    height          : 1px;
+    background-color: black;
+    position        : absolute;
+    left            : 50%;
+    bottom          : -10%;
+    transform       : translateX(-50%);
+    transition      : all 1s
+}
+
+.title:hover hr {
+    width: 8%;
+    background-color: #C5341F;
+
+}
+.title:hover h4 {
+    color: #C5341F;
+}
+
+
+
+.title-item {
+    color: rgb(189, 188, 188);
+
+}
+#about .step-text h5{
+    color: #C5341F;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+#about .row .img-step{
+    width: 100%;
+    height: 100%;
+}
+#about .row .step-text{
+    width: 80%;
+    height: 77%;
+    position: absolute;
+    right:4%;
+    top:75%;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px rgb(197, 197, 197);
+
+}
+
+
+
+
+/*------------------------camps-----------*/
+#camps .items:hover  .item-img img{
+
+    transform: scale(1.2);
+}
+#camps .items:hover  .item-img{
+    overflow: hidden;
+
+}
+
+#camps .item-caption {
+    background-color: rgb(240, 239, 239);
+    box-shadow: 2px 2px 2px 1px rgb(221, 219, 219);
+
+}
+
+
+
+/*---------------------donate--------------------------*/
+
+#donate{
+    background-color: #e7e6e6d8
+}
+#donate .btn-fund{
+    border: none;
+    padding: 5px;
+}
+#donate .btn-fund:hover{
+    border-color:#C5341F ;
+}
+#donate span{
+    font-size: 30px;
+    color: #C5341F;
+    
+}
+#errorFund , #errorEmail{
+    display: none;
+}
+/* ----------------------work------------- */
+#work{
+    width: 100%;
+    background-image: url(../images/GBF-whybloodbanner.jpg) ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    color:white
+
+ }
+#work .container-fluid{
+    background-color:  #7694b652;
+}
+ #work .feedback{
+     margin: 10% auto;
+     text-align: center;
+ }
+ #work .feedback img{
+     border-radius: 50%;
+     margin: auto;
+    
+ }
+ #work .work-icon{
+     background-color: white;
+     border-radius: 50%; 
+     width: 10%;
+     margin: auto;
+     padding: 10px 0px;
+ }
+ #work .work-icon i {
+     color:#0077ff ;
+     font-size: 35px;
+     
+ }
+ #work .carousel-indicators {
+     transform: translateY(-120px);
+ }
+ #work h4{
+    font-family: 'Oswald', sans-serif;
+ }
+
+
+/*---------------------Location--------------*/
+#location .location-caption{
+    position: relative;
+    left: 50%;
+    top:-5%;
+    transform: translate(-50%);
+    padding:0px auto;
+    border-radius: 10%;
+    background-color: #C5341F;
+    color: #fff;
+    font-size: 20px;
+    width: 30%;
+}
+#location .item:hover {
+ box-shadow: 2px 2px 2px 2px #C5341F;
+}
+
+
+
+/* ---------------------footer */
+#footer
+{
+ background-color: rgba(0, 0, 0, 0.4);
+ color: #FFF;
+ font-style: italic;
+}
+
+.endfooter
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container a i
+{
+    color: #FFF;
+}
+
+.container a i:hover ,  .section-three p a:hover
+{
+    color: #C5341F;
+}
+
+.btn
+{
+    background-color:#C5341F ;
+    color: #FFF;
+}
+
+.section-three p a
+{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+}
+
+footer .foot i:hover,
+footer .foot span:hover {
+    color: #f25454;
+}
+
+#footer .uparrow i {
+    color    : #fff;
+    position : relative;
+    left     : 50%;
+    transform: translateX(-50%);
+
+
+}
+
+#footer .uparrow {
+    background-color: #c5351f9f;
+    border-radius   : 50%;
+    width           : 5%;
+    padding         : 15px 20px;
+    position        : relative;
+    top             : -30%;
+    cursor          : pointer;
+}
+
+/*------------lg-----------*/
+@media screen and (max-width: 960px) {}
+
+/*------------sm-----------*/
+@media screen and (max-width: 720px) {
+
+}
+
+    
