@@ -1,0 +1,192 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color      : #666;
+    overflow-x : hidden;
+	
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #C5341F;
+}
+
+.navbar-brand img {
+    width: 10%;
+}
+
+.navbar-brand span,
+.navbar-light .navbar-nav .nav-link {
+    color      : #fff;
+    font-weight: 600;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(168, 164, 164);
+}
+
+
+
+
+
+
+
+
+.blood-form{
+	max-width: 500px;
+	padding: 20px 12px 10px 20px;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+.parent {
+    display: flex;
+	justify-content: center;
+	margin-top: 120px;	
+}
+.parent .blood-img{
+	width: 20%;
+	margin-top: 60px;
+}
+.parent .blood-img img
+{
+	width: 100%;
+	height: 60%;
+}
+.parent .blood-form
+{
+	width: 80%;
+}
+ .blood-form-heading {
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 25px;
+	padding-bottom: 3px;
+    text-align: center;
+    color: red;
+}
+.blood-form-heading span{
+	color: rgb(107, 102, 102);
+	font-weight:normal;
+	font-size: 16px;
+}
+.blood-form label{
+	display: block;
+	font-weight: bold;
+	width: 100px;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+
+.blood-form button
+{
+	border: none;
+	padding: 10px 20px 10px 20px;
+	background: red;
+	color: #fff;
+	font-size: 20px;
+}
+.blood-form button:hover
+{
+	background: #EA7B00;
+	color: #fff;
+}
+
+ .table
+{
+	margin-top: 100px;
+}
+thead 
+{
+	background-color:white;
+	color: black;
+}
+
+.header
+{
+	background-color: rgba(138, 138, 138,0.2);
+	width: 85%;
+	margin-top: 100px;
+	margin-left: 100px;
+	padding: 7px;
+	border-radius: 5px;
+	color: white;
+	
+}
+.header a:hover 
+{
+	
+	color: white;
+}
+.header a 
+{
+	text-decoration: none;
+	color: red;
+}
+#footer
+{
+ background-color: rgba(0, 0, 0, 0.4);
+ color: #FFF;
+ font-style: italic;
+
+}
+
+.endfooter
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container a i
+{
+    color: #FFF;
+}
+
+.container a i:hover ,  .section-three p a:hover
+{
+    color: #C5341F;
+}
+
+.btn
+{
+    background-color:#C5341F ;
+    color: #FFF;
+}
+
+.section-three p a
+{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+}
+footer .foot i:hover,
+footer .foot span:hover {
+    color: #f25454;
+}
+
+#footer .uparrow i {
+    color    : #fff;
+    position : relative;
+    left     : 50%;
+    transform: translateX(-50%);
+
+
+}
+
+#footer .uparrow {
+    background-color: #c5351f9f;
+    border-radius   : 50%;
+    width           : 5%;
+    padding         : 15px 20px;
+    position        : relative;
+    top             : -30%;
+    cursor          : pointer;
+}

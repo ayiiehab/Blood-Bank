@@ -1,0 +1,109 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color      : #666;
+    overflow-x : hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #C5341F;
+}
+#main-nav{
+    transition: background-color 2s , padding 0.5s;
+}
+
+.navbar-brand img {
+    width: 10%;
+}
+
+.navbar-brand span,
+.navbar-light .navbar-nav .nav-link {
+    color      : #fff;
+    font-weight: 600;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(168, 164, 164);
+}
+/* -------------------about-content------------------- */
+#about-content .about-img , #about-content .about-caption{
+    height: 80%;
+    margin-top: 20%;
+}
+
+#about-content .about-caption h1{
+    font-family: "Open Sans", sans-serif    ;
+    font-size: 30px;
+    font-weight: 600px;
+    color: black;
+}
+
+/* ------------------footer------------- */
+#footer
+{
+ background-color: rgba(0, 0, 0, 0.4);
+ color: #FFF;
+ font-style: italic;
+}
+
+.endfooter
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container a i
+{
+    color: #FFF;
+}
+
+.container a i:hover ,  .section-three p a:hover
+{
+    color: #C5341F;
+}
+
+.btn
+{
+    background-color:#C5341F ;
+    color: #FFF;
+}
+
+.section-three p a
+{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+}
+
+footer .foot i:hover,
+footer .foot span:hover {
+    color: #f25454;
+}
+
+#footer .uparrow i {
+    color    : #fff;
+    position : relative;
+    left     : 50%;
+    transform: translateX(-50%);
+
+
+}
+
+#footer .uparrow {
+    background-color: #c5351f9f;
+    border-radius   : 50%;
+    width           : 5%;
+    padding         : 15px 20px;
+    position        : relative;
+    top             : -30%;
+    cursor          : pointer;
+}
+
