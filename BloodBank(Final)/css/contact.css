@@ -1,0 +1,232 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color      : #666;
+    overflow-x : hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #C5341F;
+}
+#main-nav{
+    transition: background-color 2s , padding 0.5s;
+}
+
+.navbar-brand img {
+    width: 10%;
+}
+
+.navbar-brand span,
+.navbar-light .navbar-nav .nav-link {
+    color      : #fff;
+    font-weight: 600;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(168, 164, 164);
+}
+
+/* ----------------nav------------- */
+
+
+.header
+{
+	background-color: rgba(170, 168, 168, 0.2);
+	padding: 7px;
+	border-radius: 5px;
+	color: white;
+    height: 20px;
+    margin: auto;
+    
+	
+}
+.header a{
+    color: #C5341F;
+    text-decoration: none;
+}
+.header a:hover 
+{
+	
+	color: rgb(71, 68, 68);
+}
+.header a 
+{
+	text-decoration: none;
+	color: red;
+}
+/* ------------------------------------------------ */
+html{
+    background: white;
+    box-sizing:border-box;
+  }
+  *{
+  box-sizing:inherit;
+  }
+  body{
+  background: white;
+  font-family: Calibri, Arial, sans-serif;
+  }
+  h1, p{
+  text-align: center;
+  color: rgb(24, 22, 22);
+  }
+  label{
+  display:block;
+  margin:1em 0 .2em;
+  }
+  /* single-line text, checkbox, and button */
+  input, select, textarea{
+  display:block;
+  width:100%;
+  padding:.3em;
+  font-size:20px;
+  background-color:#fbfbfb;
+  border:solid 1px #CCC;
+  resize:vertical;
+  }
+  textarea{
+  min-height:180px;
+  }
+  select{
+  color:c5341f;
+  }
+  option{
+  color:c5341f;
+  background: lavenderBlush;
+  }
+  input[type=checkbox]{
+  display:inline;
+  width:auto;
+  color:red;
+  }
+  
+  input[type=submit]{
+  background:lightcoral;
+  margin:1em 0 0;
+  color:white;
+  border:none;
+  border-radius:8px;
+  transition:all .3s ease-out;
+  }
+  
+  
+  
+  
+  
+  @media screen and (min-width:600px) {
+  /*  make the form 2 columns */
+  form:after{
+    content:'';
+    display:block;
+    clear:both;
+  }
+  .column{
+    width:50%;
+    padding:1em;
+    float:left;
+  }
+  }
+  #footer
+  {
+   background-color: rgba(0, 0, 0, 0.4);
+   color: #FFF;
+   font-style: italic;
+  }
+  
+  .endfooter
+  {
+      background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .container a i
+  {
+      color: #FFF;
+  }
+  
+  .container a i:hover ,  .section-three p a:hover
+  {
+      color: #C5341F;
+  }
+  
+  .btn
+  {
+      background-color:#C5341F ;
+      color: #FFF;
+  }
+  
+  .section-three p a
+  {
+      text-decoration: none;
+      color: #FFF;
+      font-size: 18px;
+  }
+/* -------------------footer--------------- */
+#footer
+{
+ background-color: rgba(0, 0, 0, 0.4);
+ color: #FFF;
+ font-style: italic;
+
+
+}
+
+.endfooter
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container a i
+{
+    color: #FFF;
+}
+
+.container a i:hover ,  .section-three p a:hover
+{
+    color: #C5341F;
+}
+
+.btn
+{
+    background-color:#C5341F ;
+    color: #FFF;
+}
+
+.section-three p a
+{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+}
+
+footer .foot i:hover,
+footer .foot span:hover {
+    color: #f25454;
+}
+
+#footer .uparrow i {
+    color    : #fff;
+    position : relative;
+    left     : 50%;
+    transform: translateX(-50%);
+
+
+}
+
+#footer .uparrow {
+    background-color: #c5351f9f;
+    border-radius   : 50%;
+    width           : 5%;
+    padding         : 15px 20px;
+    position        : relative;
+    top             : -30%;
+    cursor          : pointer;
+}
